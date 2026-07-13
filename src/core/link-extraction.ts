@@ -83,10 +83,10 @@ export type LinkResolutionType = 'qualified' | 'unqualified';
  *   - Our domain extensions: tech, finance, personal, openclaw (domain-organized wikis)
  *   - Our entity prefix: entities (we kept some legacy entities/projects/ pages)
  *   - Our curated hubs: automation, founder-coach, wwpf, runbooks, identity, public,
- *     integrations, domains, observability, lead-coder, originals, travel — these hold
+ *     integrations, domains, observability, lead-coder, originals, travel, security — these hold
  *     evergreen pages that hubs link into; without them those links form no graph edges.
  */
-const DIR_PATTERN = '(?:people|companies|meetings|concepts|deal|civic|project|projects|source|media|yc|tech|finance|personal|openclaw|entities|automation|founder-coach|wwpf|runbooks|identity|public|integrations|domains|observability|lead-coder|originals|travel)';
+const DIR_PATTERN = '(?:people|companies|meetings|concepts|deal|civic|project|projects|source|media|yc|tech|finance|personal|openclaw|entities|automation|founder-coach|wwpf|runbooks|identity|public|integrations|domains|observability|lead-coder|originals|travel|security)';
 
 /**
  * Match `[Name](path)` markdown links pointing to entity directories.
